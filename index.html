@@ -8,7 +8,7 @@
   <link rel="shortcut icon" href="assets/favicon.svg">
   <!-- shell favicon; note: SVG favicons are unsupported on some older Safari versions — .ico fallback can be added at public launch if needed -->
   <title>DesdemonaTides — handcrafted upcycled can jewelry</title>
-  <meta name="description" content="Handcrafted upcycled can jewelry from Astoria, Oregon. Shop on Etsy, follow on Instagram.">
+  <meta name="description" content="Handcrafted upcycled aluminum can jewelry from Astoria, Oregon. Shop on Etsy, follow on Instagram.">
   <style>
     /* Placeholder warm-neutral palette — re-theme from the banner palette later. */
     :root {
@@ -144,6 +144,9 @@
     .footer p {
       margin: 0;
     }
+
+    .contact { margin: 0 0 6px; }
+    .contact a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
   </style>
 </head>
 <body>
@@ -152,11 +155,11 @@
       <!-- Placeholder: with assets/banner.jpg present it renders over the gradient;
            if the file is missing, the img removes itself and the wordmark block shows. -->
       <div class="banner-fallback" aria-hidden="true"><span>DesdemonaTides</span></div>
-      <img src="assets/banner.jpg" alt="DesdemonaTides — handcrafted upcycled can jewelry" onerror="this.remove()">
+      <img src="assets/banner.jpg" alt="DesdemonaTides — handcrafted upcycled aluminum can jewelry" onerror="this.remove()">
     </header>
 
     <h1 class="sr-only">DesdemonaTides</h1>
-    <p class="tagline">Handcrafted upcycled can jewelry — Astoria, Oregon</p>
+    <p class="tagline">Handcrafted upcycled aluminum can jewelry from Astoria, Oregon</p>
 
     <nav class="links" aria-label="Find DesdemonaTides on">
       <a class="primary" href="https://www.etsy.com/shop/DesdemonaTides">Shop on Etsy</a>
@@ -168,6 +171,7 @@
     <footer class="footer">
       <!-- Possible future line: brewery non-affiliation disclaimer
            ("DesdemonaTides is not affiliated with...") — SLF to decide wording. -->
+      <p class="contact"><a href="mailto:info@desdemonatides.com">info@desdemonatides.com</a></p>
       <p>© 2026 DesdemonaTides</p>
     </footer>
   </main>
