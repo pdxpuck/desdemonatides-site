@@ -36,3 +36,10 @@ Build locally only; no remote, no Pages, no DNS changes until D4 clears. Git
 handled by the operator (local commits only at most). The monorepo `.gitignore`
 carries `desdemonatides-site/` (mirroring the `shellback-studio-site/` pattern)
 so the folder is never accidentally committed to the dev monorepo.
+
+
+## Tracker narrative extract (2026-11-19)
+
+Moved verbatim from `.project_tracker/active_projects.json` `time_invested` during harness-reboot batch B (index slimmed to a thin map). Historical record through 2026-11-19; current status lives in the tracker index.
+
+1 session — domain verified (Porkbun, reg 2026-06-30, exp 2027-06-30); scaffold built (banner slot + Etsy/IG buttons, placeholder theme); assets pending from SLF (banner/avatar); launch gated on SLF look/feel sign-off; Etsy compliance check for cuff-slicer-app done same day (compliant, D-notes in cuff-slicer-app repo)
